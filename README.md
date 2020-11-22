@@ -32,9 +32,9 @@ As you can see, the refactored code was more than five times faster than our ori
 ## Summary
 Refactoring, or editing, is an important part of the coding process. When we refactor code, the output looks the same. We preserve the functionality while improving the code design, structure, or implementation. Some reasons to refactor code include greater effiency or enhanced readability.
 
-Sometimes it might not be necessary to refactor code, maybe if we are going to be the only user and it's a one-off task, or if the code is short. Oftentimes, however, it can be very helpful to refactor code. If we are performing a repetitive task thousnds of times or more, making a code even slightly more efficient can make a significant difference. It's also important to refactor a code for readability purposes, in order to make it easier to undersand for other users or even our future selves.
+Sometimes it might not be necessary to refactor code, for example if we are going to be the only user and it's a one-off task, or if the code is really short. Oftentimes, however, it can be critical to refactor code. If we are performing a repetitive task thousnds of times or more, making a code even slightly more efficient can make a significant difference. It's also important to refactor a code for readability purposes, in order to make it easier to undersand for other users or even our future selves.
 
-In this specific case, our original code worked well when we were only running it on 12 stocks. The speed difference wasn't noticeable. If we want to reuse our code to analyze hundreds or thousands of stocks, however, the efficiency will matter and the speed difference will be apparent.
+In this specific case, our original code worked well when we were only running it on 12 stocks. The speed difference wasn't noticeable. If we want to reuse our code to analyze hundreds or thousands of stocks, however, the efficiency will matter and the speed difference will be apparent. By using multiple arrays, we were able to loop through the code only one time, thus making the process more than 5X faster.
 
 
 
